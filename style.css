@@ -4,6 +4,7 @@ html, body {
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
     color: rgb(219, 219, 219);
+    
 }
 
 a {
@@ -17,6 +18,8 @@ a:hover {
 
 header {
     background-color: black;
+    max-height: 100vh;
+    min-height: 20vh;
 }
 
 h1, h2, h3, h4 {
@@ -40,6 +43,7 @@ h4 {
 h3 {
     font-family: 'Stylish';
 }
+
 
 nav {
     border: dashed 0.2rem rgb(253, 229, 229);
@@ -88,6 +92,12 @@ main {
     height: 100%;
 }
 
+.card {
+    color: black;
+    font-weight: bold;
+    background-color: darkslategrey ;
+}
+
 
 menu img {
     width: 100%;
@@ -121,15 +131,10 @@ button {
     color: rgb(95, 95, 95);
 }
 
-profileImage img {
-    width: 10rem;
-    height: 10rem;
-}
-
-
-profileName {
-    top: 2rem;
-    left: 50rem;
+profileImage {
+    width: 10%;
+    height: 10vh;
+    object-fit: cover;
 }
 
 
@@ -165,13 +170,4 @@ profileName {
         opacity: 0.5;
     }
 
-    profileImage img {
-        width: 40rem;
-        height: 40rem;
-    }
-
-    profileName {
-        top: 1rem;
-        left: 50%;
-    }
 }

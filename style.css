@@ -83,6 +83,9 @@ quote {
     font-family: 'Major Mono Display', monospace;
 }
 
+.card {
+    border: dashed 0.2rem whitesmoke;
+}
 
 .lines {
     width: 50%;
@@ -170,12 +173,11 @@ profileImage img {
 @media screen and (min-width: 576px) {
     
     header {
-        background-image: url(resources/photo-buildingtop.JPEG);
+        background-image: url(resources/img34.JPEG);
         background-position: center;
         background-size: cover;
         padding: 10vh 20vh 10vh 20vh;
         height: 100vh;
-        border-radius: 0.5rem;
     }
 
 

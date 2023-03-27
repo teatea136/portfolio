@@ -173,7 +173,7 @@ profileImage img {
 @media screen and (min-width: 576px) {
     
     header {
-        background-image: url(resources/img/3.JPEG);
+        background-image: url(resources/img/3.jpeg);
         background-position: center;
         background-size: cover;
         padding: 10vh 20vh 10vh 20vh;

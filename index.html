@@ -56,31 +56,25 @@
     </header>
     <!--<div>
         <div class="lines"></div>
-    </div> -->
-    <main class="container-fluid p-sm-5 text-center justify-content-center align-content-center">
-        <quote class="row  p-1 g-1 g-lg-2 text-center justify-content-center align-content-center  d-none d-sm-block ">
-            <div class="col-12 col-sm-10 col-md-8 mx-auto"> 
-                <div class="card ">
-                    <div class="card-header ">
-                            quote
-                    </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>"Really I don't like human nature unless all candied over with art"</p>
-                            <footer class="blockquote-footer">Virginia woolf <cite title="Source Title">the diary of virginia Woolf</cite></footer>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </quote>                    
+    </div> 
+                  <div class="sticky-bottom">            
+              <mininav class="nav flex-column">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link disabled">Disabled</a>
+              </mininav>
+            </div
+    -->
+    <main class="container py-sm-5 text-center justify-content-center align-content-center">
+               
         
         <menu class="row g-1 g-lg-2 text-center justify-content-center align-content-center  p-1"> 
-            <div class="col-12 col-sm-10 col-md-8 mx-auto">
-                <div class="container-fluid pt-5 px-0">
+            <div class="col-12 col-sm-11 mx-auto">
+              <div class="container-fluid pt-5 px-0">
                 <div class="row g-1 g-lg-2 text-center justify-content-center align-content-center">
-
-                    <div class="col-12 text-center ">
-                        <div class="menu-box position-relative bg-secondary rounded border border-light">
+                  <div class="col-12">
+                    <div class="menu-box position-relative text-center bg-secondary rounded ">
                             <a href="#photos"> 
                                 <img src="resources/img/4.jpg" alt="photo">
                                 <h5 class="position-absolute top-50 start-50 translate-middle">photoGraphy</h5>
@@ -90,9 +84,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-6 ">
-                        <div class="menu-box position-relative text-center bg-secondary rounded border border-light">
-                            <a href="#physicalart">                        
+                    <div class="col-12 col-sm-6 ">
+                        <div class="menu-box position-relative text-center bg-secondary rounded ">
+                            <a href="#art">                        
                                 <img src="resources/art/5.jpg" alt="button to art">
                                 <h5 class="position-absolute top-50 start-50 translate-middle">Art</h5>
                                 <div class="position-absolute top-0 start-0 overlay h-100 w-100">
@@ -101,8 +95,8 @@
                             </a> 
                         </div>
                     </div>
-                    <div class="col-12 col-xl-6 ">
-                        <div class="menu-box position-relative text-center bg-secondary rounded border border-light">
+                    <div class="col-12 col-sm-6 ">
+                        <div class="menu-box position-relative text-center bg-secondary rounded ">
                             <a href="#sketches">
                                 <img src="resources/sketch/2.jpg" alt="button to sketches">
                                 <h5 class="position-absolute top-50 start-50 translate-middle">sKetcHes</h5>
@@ -113,12 +107,12 @@
                         </div> 
                     </div>
                     <div class="col-12">
-                        <div class="menu-box position-relative text-center bg-secondary rounded border border-light">
-                            <a href="#webdesign">
+                        <div class="menu-box position-relative text-center bg-secondary rounded ">
+                            <a href="#UI/UX">
                                 <img src="resources/web/web3.png" alt="">
-                                <h5 class="position-absolute top-50 start-50 translate-middle">Web design</h5>
+                                <h5 class="position-absolute top-50 start-50 translate-middle">ui/uX</h5>
                                 <div class="position-absolute top-0 start-0 overlay h-100 w-100">
-                                    <h5 class="position-absolute top-50 start-50 translate-middle">Web design</h5>
+                                    <h5 class="position-absolute top-50 start-50 translate-middle">ui/uX</h5>
                                 </div>
                             </a>
                         </div>
@@ -127,885 +121,974 @@
             </div>
           </div>
         </menu>   
-        <div class="col-12 col-sm-10 col-md-8 mx-auto">
+        <div class="col-12 col-sm-11 mx-auto">
           <content>
-              <div class="container-fluid album px-0" id="photos">
-                  <div class="row my-5 text-center justify-content-center align-content-center">
-                      <div class="col-12 my-5">
-                        <div class="card border-light mb-3" >
-                          <div class="card-body">
-                            <h5 class="card-title p-4" style="color: whitesmoke;">photoGraphy</h5>
-                            <div class="row g-2 ">
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/1.jpg"  alt="">
+            <div class="container album px-0" id="photos">
+              <div class="row my-5 text-center justify-content-center align-content-center">
+                <div class="col-12 my-5">
+                  <div class="card mb-3 px-5 pb-5" >
+                    <div class="card-body">
+                      <h5 class="card-title p-4" style="color: whitesmoke;">photoGraphy</h5>
+                      <div class="row g-4 ">
+                            <button class=" btn" data-bs-toggle="modal" data-bs-target="#photoModal">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/1.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal2">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/2.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal3">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/3.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal4">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/4.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal5">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/5.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal6">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/7.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal7">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/6.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal8">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/8.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal9">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/9.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal10">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/10.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal11">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/11.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal12">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/12.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal13">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/13.jpeg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal14">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/14.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal15">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/15.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal16">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/16.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal17">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/17.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal18">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/18.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal19">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/19.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal20">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/20.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal21">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/21.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal22">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/22.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal23">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/23.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal24">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/24.jpg"  alt="">
+                              </div>
+                            </button>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#photoModal25">
+                              <div class=" ratio ratio-4x3">
+                                <img class="rounded" src="resources/img/25.jpg"  alt="">
+                              </div>
+                            </button>
+                            <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel1" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal2">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/2.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal3">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/3.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal4">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/4.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal5">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/5.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal6">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/7.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal7">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/6.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal8">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/8.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal9">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/9.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal10">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/10.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal11">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/11.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal12">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/12.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal13">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/13.jpeg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal14">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/14.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal15">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/15.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal16">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/16.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal17">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/17.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal18">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/18.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal19">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/19.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal20">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/20.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal21">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/21.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal22">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/22.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal23">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/23.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal24">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/24.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#photoModal25">
-                                  <div class=" ratio ratio-1x1">
-                                    <img class="rounded" src="resources/img/25.jpg"  alt="">
-                                  </div>
-                                </button>
-                                <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel1" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/1.jpg"  alt="">
-                                      </div>
-                                    </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/1.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal2" tabindex="-1" aria-labelledby="photoModalLabel2" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel2">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/2.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal2" tabindex="-1" aria-labelledby="photoModalLabel2" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel2">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/2.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal3" tabindex="-1" aria-labelledby="photoModalLabel3" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel3">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/3.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal3" tabindex="-1" aria-labelledby="photoModalLabel3" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel3">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/3.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal4" tabindex="-1" aria-labelledby="photoModalLabel4" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel3">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/4.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal4" tabindex="-1" aria-labelledby="photoModalLabel4" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel3">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/4.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal5" tabindex="-1" aria-labelledby="photoModalLabel5" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/5.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal5" tabindex="-1" aria-labelledby="photoModalLabel5" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/5.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal6" tabindex="-1" aria-labelledby="photoModalLabel6" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/6.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal6" tabindex="-1" aria-labelledby="photoModalLabel6" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/6.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal7" tabindex="-1" aria-labelledby="photoModalLabel7" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/7.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal7" tabindex="-1" aria-labelledby="photoModalLabel7" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/7.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal8" tabindex="-1" aria-labelledby="photoModalLabel8" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/8.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal8" tabindex="-1" aria-labelledby="photoModalLabel8" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/8.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal9" tabindex="-1" aria-labelledby="photoModalLabel9" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/9.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal9" tabindex="-1" aria-labelledby="photoModalLabel9" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/9.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal10" tabindex="-1" aria-labelledby="photoModalLabel10" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/10.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal10" tabindex="-1" aria-labelledby="photoModalLabel10" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/10.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal11" tabindex="-1" aria-labelledby="photoModalLabel11" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/11.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal11" tabindex="-1" aria-labelledby="photoModalLabel11" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/11.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal12" tabindex="-1" aria-labelledby="photoModalLabel12" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/12.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal12" tabindex="-1" aria-labelledby="photoModalLabel12" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/12.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal13" tabindex="-1" aria-labelledby="photoModalLabel13" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/13.jpeg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal13" tabindex="-1" aria-labelledby="photoModalLabel13" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/13.jpeg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal14" tabindex="-1" aria-labelledby="photoModalLabel14" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/14.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal14" tabindex="-1" aria-labelledby="photoModalLabel14" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/14.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal15" tabindex="-1" aria-labelledby="photoModalLabel15" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/15.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal15" tabindex="-1" aria-labelledby="photoModalLabel15" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/15.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal16" tabindex="-1" aria-labelledby="photoModalLabel16" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/16.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal16" tabindex="-1" aria-labelledby="photoModalLabel16" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/16.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal17" tabindex="-1" aria-labelledby="photoModalLabel17" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/17.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal17" tabindex="-1" aria-labelledby="photoModalLabel17" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/17.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal18" tabindex="-1" aria-labelledby="photoModalLabel18" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/18.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal18" tabindex="-1" aria-labelledby="photoModalLabel18" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/18.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal19" tabindex="-1" aria-labelledby="photoModalLabel19" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/19.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal19" tabindex="-1" aria-labelledby="photoModalLabel19" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/19.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal20" tabindex="-1" aria-labelledby="photoModalLabel20" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/20.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal20" tabindex="-1" aria-labelledby="photoModalLabel20" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/20.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal21" tabindex="-1" aria-labelledby="photoModalLabel21" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/21.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal21" tabindex="-1" aria-labelledby="photoModalLabel21" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/21.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal22" tabindex="-1" aria-labelledby="photoModalLabel22" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/22.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal22" tabindex="-1" aria-labelledby="photoModalLabel22" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/22.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal23" tabindex="-1" aria-labelledby="photoModalLabel23" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/23.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal23" tabindex="-1" aria-labelledby="photoModalLabel23" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/23.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal24" tabindex="-1" aria-labelledby="photoModalLabel24" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/24.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal24" tabindex="-1" aria-labelledby="photoModalLabel24" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/24.jpg"  alt="">
                                   </div>
                                 </div>
-                                <div class="modal fade" id="photoModal25" tabindex="-1" aria-labelledby="photoModalLabel25" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                        <img class="img-fluid" src="resources/img/25.jpg"  alt="">
-                                      </div>
-                                    </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="photoModal25" tabindex="-1" aria-labelledby="photoModalLabel25" aria-hidden="true">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="photoModalLabel1">photo name</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <img class="img-fluid" src="resources/img/25.jpg"  alt="">
                                   </div>
                                 </div>
-                          </div>
+                              </div>
+                            </div>
                       </div>
-                  </div>
-              </div>
-              <div class="container-fluid album px-0" id="physicalart">
-                <div class="row my-5 text-center justify-content-center align-content-center">
-                    <div class="col-12 my-5">
-                      <div class="card border-light mb-3" >
-                        <div class="card-body">
-                          <h5 class="card-title p-4" style="color: whitesmoke;">Art</h5>
-                          <div class="row g-2">
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/1.png"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal2">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/2.png"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal3">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/3.jpg"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal4">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/4.jpg"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal5">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/5.jpg"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal6">
-                                <div class="rounded ratio ratio-1x1 bg-white bg-opacity-50">
-                                  <img class="rounded" src="resources/art/6.png"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal7">
-                                <div class="rounded ratio ratio-1x1 bg-white bg-opacity-50">
-                                  <img class="rounded" src="resources/art/7.png"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal8">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/8.jpg"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal9">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/9.jpg"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal10">
-                                <div class="rounded ratio ratio-1x1 bg-white bg-opacity-50">
-                                  <img class="rounded" src="resources/art/10.png"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal11">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/11.gif"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal12">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/12.png"  alt="">
-                                </div>
-                              </button>
-                              <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#paintingModal13">
-                                <div class=" ratio ratio-1x1">
-                                  <img class="rounded" src="resources/art/13.jpg"  alt="">
-                                </div>
-                              </button>
-
-                              <div class="modal fade" id="paintingModal" tabindex="-1" aria-labelledby="paintingModalLabel1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel1">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/1.png"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal2" tabindex="-1" aria-labelledby="paintingModalLabel2" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel2">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/2.png"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal3" tabindex="-1" aria-labelledby="paintingModalLabel3" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel3">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/3.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal4" tabindex="-1" aria-labelledby="paintingModalLabel4" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel4">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/4.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal5" tabindex="-1" aria-labelledby="paintingModalLabel5" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel5">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/5.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal5" tabindex="-1" aria-labelledby="paintingModalLabel5" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel5">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/5.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal6" tabindex="-1" aria-labelledby="paintingModalLabel6" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel6">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/6.png"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal7" tabindex="-1" aria-labelledby="paintingModalLabel7" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel7">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/7.png"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal8" tabindex="-1" aria-labelledby="paintingModalLabel8" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/8.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal9" tabindex="-1" aria-labelledby="paintingModalLabel9" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/9.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal10" tabindex="-1" aria-labelledby="paintingModalLabel10" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/10.png"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal11" tabindex="-1" aria-labelledby="paintingModalLabel11" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel11">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/11.gif"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal12" tabindex="-1" aria-labelledby="paintingModalLabel12" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel12">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/12.png"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="modal fade" id="paintingModal13" tabindex="-1" aria-labelledby="paintingModalLabel13" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="paintingModalLabel13">photo name</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <img class="img-fluid" src="resources/art/13.jpg"  alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
                     </div>
-                    
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="container album px-0" id="art">
+              <div class="row my-5 text-center justify-content-center align-content-center">
+                <div class="col-12 my-5">
+                  <div class="card mb-3 px-5 pb-5" >
+                    <div class="card-body">
+                      <h5 class="card-title p-4" style="color: whitesmoke;">Art</h5>
+                      <div class="row g-4">
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/1.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal2">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/2.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal3">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/3.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal4">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/4.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal5">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/5.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal6">
+                          <div class="rounded ratio ratio-4x3 bg-white bg-opacity-50">
+                            <img class="rounded" src="resources/art/6.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal7">
+                          <div class="rounded ratio ratio-4x3 bg-white bg-opacity-50">
+                            <img class="rounded" src="resources/art/7.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal8">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/8.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal9">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/9.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal10">
+                          <div class="rounded ratio ratio-4x3 bg-white bg-opacity-50">
+                            <img class="rounded" src="resources/art/10.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal11">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/11.gif"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal12">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/12.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#paintingModal13">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/art/13.jpg"  alt="">
+                          </div>
+                        </button>
+
+                        <div class="modal fade" id="paintingModal" tabindex="-1" aria-labelledby="paintingModalLabel1" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel1">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/1.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal2" tabindex="-1" aria-labelledby="paintingModalLabel2" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel2">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/2.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal3" tabindex="-1" aria-labelledby="paintingModalLabel3" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel3">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/3.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal4" tabindex="-1" aria-labelledby="paintingModalLabel4" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel4">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/4.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal5" tabindex="-1" aria-labelledby="paintingModalLabel5" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel5">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/5.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal5" tabindex="-1" aria-labelledby="paintingModalLabel5" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel5">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/5.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal6" tabindex="-1" aria-labelledby="paintingModalLabel6" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel6">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/6.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal7" tabindex="-1" aria-labelledby="paintingModalLabel7" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel7">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/7.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal8" tabindex="-1" aria-labelledby="paintingModalLabel8" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/8.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal9" tabindex="-1" aria-labelledby="paintingModalLabel9" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/9.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal10" tabindex="-1" aria-labelledby="paintingModalLabel10" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/10.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal11" tabindex="-1" aria-labelledby="paintingModalLabel11" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel11">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/11.gif"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal12" tabindex="-1" aria-labelledby="paintingModalLabel12" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel12">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/12.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="paintingModal13" tabindex="-1" aria-labelledby="paintingModalLabel13" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="paintingModalLabel13">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/art/13.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="container-fluid album px-0" id="sketches">
               <div class="row my-5 text-center justify-content-center align-content-center">
-                  <div class="col-12 my-5">
-                    <div class="card border-light mb-3" >
-                      <div class="card-body ">
+                <div class="col-12 my-5">
+                  <div class="card mb-3 px-5 pb-5" >
+                    <div class="card-body">
                         <h5 class="card-title p-4" style="color: whitesmoke;">sKetcHes</h5>
-                        <div class="row g-2">
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/1.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal2">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/2.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal3">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/3.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal4">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/4.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal5">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/5.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal6">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/6.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal7">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/7.jpg"  alt="">
-                            </div>
-                          </button>
-                          <button class="btn col-md-6 btn col-xxl-4" data-bs-toggle="modal" data-bs-target="#sketchModal8">
-                            <div class=" ratio ratio-1x1">
-                              <img class="rounded" src="resources/sketch/8.jpg"  alt="">
-                            </div>
-                          </button>
-                          <div class="modal fade" id="sketchModal" tabindex="-1" aria-labelledby="sketchModalLabel1" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel1">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/1.jpg"  alt="">
-                                </div>
+                      <div class="row g-4">
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/1.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal2">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/2.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal3">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/3.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal4">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/4.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal5">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/5.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal6">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/6.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal7">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/7.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#sketchModal8">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/sketch/8.jpg"  alt="">
+                          </div>
+                        </button>
+                        <div class="modal fade" id="sketchModal" tabindex="-1" aria-labelledby="sketchModalLabel1" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel1">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/1.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal2" tabindex="-1" aria-labelledby="sketchModalLabel2" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel2">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/2.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal2" tabindex="-1" aria-labelledby="sketchModalLabel2" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel2">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/2.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal3" tabindex="-1" aria-labelledby="sketchModalLabel3" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel3">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/3.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal3" tabindex="-1" aria-labelledby="sketchModalLabel3" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel3">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/3.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal4" tabindex="-1" aria-labelledby="sketchModalLabel4" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel4">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/4.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal4" tabindex="-1" aria-labelledby="sketchModalLabel4" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel4">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/4.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal5" tabindex="-1" aria-labelledby="sketchModalLabel5" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel5">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/5.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal5" tabindex="-1" aria-labelledby="sketchModalLabel5" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel5">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/5.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal6" tabindex="-1" aria-labelledby="sketchModalLabel6" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/6.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal6" tabindex="-1" aria-labelledby="sketchModalLabel6" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/6.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal7" tabindex="-1" aria-labelledby="sketchModalLabel7" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel7">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/7.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal7" tabindex="-1" aria-labelledby="sketchModalLabel7" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel7">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/7.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-                          <div class="modal fade" id="sketchModal8" tabindex="-1" aria-labelledby="sketchModalLabel8" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="sketchModalLabel8">photo name</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <img class="img-fluid" src="resources/sketch/8.jpg"  alt="">
-                                </div>
+                        </div>
+                        <div class="modal fade" id="sketchModal8" tabindex="-1" aria-labelledby="sketchModalLabel8" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sketchModalLabel8">photo name</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/sketch/8.jpg"  alt="">
                               </div>
                             </div>
                           </div>
-
+                        </div>
                       </div>
+                    </div>
                   </div>
+                </div>
               </div>
-          </div>
+            </div>   
+            <div class="container-fluid album px-0" id="UI/UX">
+              <div class="row my-5 text-center justify-content-center align-content-center">
+                <div class="col-12 my-5">
+                  <div class="card mb-3 px-5 pb-5" >
+                    <div class="card-body">
+                      <h5 class="card-title p-4" style="color: whitesmoke;">ui/uX</h5>
+                      <div class="row g-4 ">
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#webModal">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/web/web.jpg"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#webModal1">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/web/web1.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#webModal2">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/web/web2.png"  alt="">
+                          </div>
+                        </button>
+                        <button class="btn" data-bs-toggle="modal" data-bs-target="#webModal3">
+                          <div class=" ratio ratio-4x3">
+                            <img class="rounded" src="resources/web/web3.png"  alt="">
+                          </div>
+                        </button>
+                        <div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="webModalLabel1" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="webModalLabel1">this portfolio's wireframe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/web/web.jpg"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="webModal1" tabindex="-1" aria-labelledby="webModalLabel2" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="webModalLabel2">twitch stream starting</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/web/web1.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="webModal2" tabindex="-1" aria-labelledby="webModalLabel3" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="webModalLabel3">twitch offline</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/web/web2.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal fade" id="webModal3" tabindex="-1" aria-labelledby="webModalLabel4" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="webModalLabel4">twitch basic</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img class="img-fluid" src="resources/web/web3.png"  alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>       
           </content>
         </div>
     </main>

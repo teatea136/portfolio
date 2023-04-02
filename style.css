@@ -1,6 +1,6 @@
 html, body {
     font-size: 1rem;
-    background-color: rgb(21, 22, 21);
+    background-color: rgb(28, 32, 30);
     box-sizing: border-box;
     font-family: 'Major Mono Display', monospace;
     color: rgb(219, 219, 219);
@@ -17,6 +17,8 @@ a:hover {
     color: azure;
     text-decoration: line-through;
 }
+
+
 
 
 h1, h2, h3, h4 {
@@ -83,9 +85,6 @@ quote {
     font-family: 'Major Mono Display', monospace;
 }
 
-.card {
-    border: dashed 0.2rem whitesmoke;
-}
 
 .lines {
     width: 50%;
@@ -161,6 +160,16 @@ icons img {
 profileImage img {
     width: 100%;
     object-fit: cover;
+}
+
+profile a {
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+profile a:hover {
+    color: rgb(124, 151, 140);
 }
 
 

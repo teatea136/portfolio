@@ -3,7 +3,10 @@
     src:
       local("Behance"),
       url("resources/behance.ttf") format("truetype");
-  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Diphylleia&display=swap');
+
 
 html, body {
     font-size: 1rem;
@@ -34,7 +37,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 7rem;
 }
 
 h2 {
@@ -52,7 +55,8 @@ h5 {
 }
 
 p {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Diphylleia', serif;
+    font-size: 0.9rem;
 }
 
 /* NAVIGATION */
@@ -64,23 +68,25 @@ nav {
 }
 
 .navbar a {
+    font: 'Behance', monospace;
     color: white;
 }
 
 nav a:hover {
-    color: rgb(202, 202, 202);
+    color: rgb(238, 238, 238);
     
 }
 
 nav a {
-    color: rgb(95, 95, 95);
+    font: 1.8rem 'Behance', monospace;
+    color: rgb(177, 177, 177);
     text-decoration: none;
     
 }
 
 .navi-off {
-    color: rgb(240, 240, 240);
-    font-family: 'Behance', monospace;
+    color: rgb(99, 122, 61);
+    font: 1.8rem 'Behance', monospace;
     margin: 0;
     padding: 0;
     cursor: context-menu;
@@ -170,7 +176,7 @@ profileImage img {
 }
 
 profile a {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Diphylleia', serif;
     color: black;
     transition: 0.3s ease-in-out;
 }

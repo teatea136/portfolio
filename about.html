@@ -31,7 +31,7 @@
                 </div>
             </div>
         </nav>
-        <div class="navbar navbar-dark d-sm-none fixed-top border border-light bg-black">
+        <div class="navbar bg-body-tertiary d-sm-none sticky-top" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">portfolio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +39,9 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">about</a>
                   </li>
@@ -55,23 +58,23 @@
           </div>
     </header>
     <main class="container">
-        <content>
-            <div class="container py-5">
+        <content class="card">
+            <div class="card-body py-5">
                 <profile class="row justify-content-center align-content-center">
-                    <profileImage class="col-12 col-md-4">
+                    <profileImage class="col-8 col-md-5 pb-5 py-md-5">
                         <div class="ratio ratio-1x1">
                             <img src="resources/me.jpg" class="rounded-circle"  alt="...">
                         </div>
                     </profileImage>       
                   
                     <profileCard class="col-12 col-md-6 my-auto">                    
-                        <profileName class="border-bottom">
+                        <profileName class="card-title">
                         <h3>
-                            Tea Salonsaari
+                            Little about me and my goals
                         </h3>
                     </profileName>   
-                    <div class="card">                        
-                        <div class="card-body mx-auto">
+                       
+                        <div class="card-text mx-auto">
                             <p> I am currently in my second year of studies for a Bachelor of Business Administration and Digital Service Design at Laurea University of Applied Sciences. I am open to work or internship in development, design and/or marketing. My current goals are to gain experience relating to user interface design and user experience development as those interest me greatly.
                             </p>
                             <p>I enjoy problem-solving and helping others, and own a can-do attitude. I believe one can always find something to improve on in oneself, so I take constructive criticism well and have the will to always learn something new and constantly develop myself to be better.     
@@ -80,7 +83,7 @@
                             
                             <p>Tea Salonsaari </p>
                         </div>
-                    </div>
+
                     </profileCard>
                 </profile>
             </div>

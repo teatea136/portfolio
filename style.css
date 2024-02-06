@@ -71,12 +71,12 @@ p {
     color: white;
 }
 
-nav a:hover {
+nav  a:hover, .nav a:hover {
     color: rgb(238, 238, 238);
     
 }
 
-nav a {
+nav a, .nav a{
     font: 1.8rem 'Behance', monospace;
     color: rgb(177, 177, 177);
     text-decoration: none;

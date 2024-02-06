@@ -132,10 +132,9 @@ main {
     filter: invert(59%) sepia(17%) saturate(308%) hue-rotate(104deg) brightness(94%) contrast(91%);
 }
 
-button {
-    color: rgb(95, 95, 95);
+button:hover {
+    text-decoration: line-through;
 }
-
 
 .icons2 {
     margin-right: 45vw;

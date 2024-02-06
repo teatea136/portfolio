@@ -21,11 +21,29 @@ html, body {
 a {
     color: rgb(240, 240, 240);
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(124, 151, 140);
     text-decoration: line-through;
+}
+
+.navbar a {
+    font: 'Behance', monospace;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(238, 238, 238);
+    
+}
+
+nav a {
+    font: 1.8rem 'Behance', monospace;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    
 }
 
 contact a {
@@ -66,22 +84,7 @@ p {
 /* NAVIGATION */
 
 
-.navbar a {
-    font: 'Behance', monospace;
-    color: white;
-}
 
-nav a:hover {
-    color: rgb(238, 238, 238);
-    
-}
-
-nav a {
-    font: 1.8rem 'Behance', monospace;
-    color: rgb(177, 177, 177);
-    text-decoration: none;
-    
-}
 
 .navi-off {
     color: rgb(124, 151, 140);
@@ -124,9 +127,6 @@ main {
 
 }
 
-.album {
-    background-color: rgb(0, 0, 0);
-}
 
 .navbar-toggler-icon {
     filter: invert(59%) sepia(17%) saturate(308%) hue-rotate(104deg) brightness(94%) contrast(91%);
@@ -136,10 +136,6 @@ button {
     color: rgb(95, 95, 95);
 }
 
-.comment-box {
-    width: 50vw;
-    margin: 3vw 13vw 0vw 8vw;
-}
 
 .icons2 {
     margin-right: 45vw;
@@ -153,10 +149,6 @@ button {
 
 
 
-.album button img {
-    width: 100%;
-    object-fit: cover;
-}
 
 icons img {
     width: 5rem;
@@ -212,15 +204,5 @@ profile a {
     }
         
 
-
-    .overlay {
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #000000;
-    }
-
-    .menu-box:hover .overlay {
-        opacity: 0.5;
-    }
 
 }
